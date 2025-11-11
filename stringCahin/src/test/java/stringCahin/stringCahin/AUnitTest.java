@@ -1,0 +1,14 @@
+package stringCahin.stringCahin;
+import org.junit.Test;
+import static org.junit.Assert.*;
+
+public class AUnitTest {
+    @Test
+    public void testAWithStub(){
+        BStub stub =new BStub();
+        A a = new A(stub);
+        String result = a.process("");
+        assertEquals("HE", result);
+    }
+
+}

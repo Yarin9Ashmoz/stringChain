@@ -5,6 +5,6 @@ public class DStub extends D {
 	
     @Override
     public String process(String prefix) {
-        return prefix + ""; // הוספה מדומה
+        return prefix + "L"; // הוספה מדומה
     }
 }

@@ -14,6 +14,6 @@ public class CUnitTest {
         String result = c.process("HE");
 
         // מאמתים את הפלט
-        assertEquals("HEL", result);
+        assertEquals("HELL", result);
     }
 }

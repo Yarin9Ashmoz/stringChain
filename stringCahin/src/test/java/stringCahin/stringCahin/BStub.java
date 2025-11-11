@@ -1,14 +1,13 @@
 package stringCahin.stringCahin;
 
-public class CStub extends C{
-
-    public CStub(){
+public class BStub extends B{
+    public BStub(){
         super(null);
     }
 
     @Override
     public String process(String prefix){
-        return prefix + "L";
+        return prefix + "E";
     }
 
 }
